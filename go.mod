@@ -1,4 +1,4 @@
-module example/m
+module backup
 
 go 1.23.0
 

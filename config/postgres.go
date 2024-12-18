@@ -1,8 +1,8 @@
 package config
 
 import (
-	"example/m/models"
-	"example/m/utils"
+	"backup/models"
+	"backup/utils"
 	"fmt"
 	"log"
 

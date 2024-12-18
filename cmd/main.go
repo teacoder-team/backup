@@ -1,9 +1,9 @@
 package main
 
 import (
-	"example/m/config"
-	"example/m/services" // импортируем сервисы
-	"example/m/utils"
+	"backup/config"
+	"backup/services"
+	"backup/utils"
 	"log"
 )
 

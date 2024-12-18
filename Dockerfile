@@ -29,11 +29,8 @@ COPY --from=builder /app/main .
 # Копируем .env файл для конфигурации среды
 COPY .env .env
 
-# Копируем config.toml в контейнер
-COPY config.toml ./config.toml
-
 # Открываем порт, на котором будет работать приложение
-EXPOSE 14704
+EXPOSE 14705
 
 # Запуск приложения
 CMD ["./main"]

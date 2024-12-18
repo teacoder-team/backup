@@ -1,7 +1,7 @@
 package config
 
 import (
-	"example/m/utils"
+	"backup/utils"
 	"log"
 
 	"github.com/aws/aws-sdk-go-v2/aws"
